@@ -1,0 +1,110 @@
+.detail{
+  padding-bottom: 60px;
+}
+.detail .detail-info{
+  position: relative;
+  top: -20px;
+  background-color: #fff;
+  margin: 0 10px;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.detail .d-pro{
+  display: flex;
+  align-items: center;
+}
+
+.detail .d-price{
+  margin-left: auto;
+  font-size: 14px;
+  color: #e4393c;
+  font-weight: bold;
+}
+
+.detail .d-zhname{
+  font-size: 14px;
+}
+
+.detail .d-enname{
+  color: #666;
+}
+
+.detail .d-rule{
+  margin-top: 20px;
+}
+
+.detail .d-rule-item{
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.detail .d-rule-item:last-child{
+  margin-bottom: 0;
+}
+
+.detail .d-subrule{
+  display: flex;
+}
+
+.detail .d-rule-title{
+  width: 60px;
+  height: 24px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.detail .d-subrule-item{
+  width: 60px;
+  height: 24px;
+  background-color: #e8e8e8;
+  text-align: center;
+  line-height: 24px;
+  color: #666;
+  margin-right: 10px;
+  border-radius: 12px;
+}
+
+.detail .d-subrule-item:last-child{
+  margin-right: 0;
+}
+
+.detail .d-subrule-item.active{
+  background-color: #0C34BA;
+  color: #fff;
+}
+
+.detail .d-count{
+  padding: 20px 0;
+  margin-top: 20px;
+  border-top: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+  display: flex;
+}
+
+.detail .d-count-title{
+  margin-right: auto;
+  font-size: 14px;
+}
+
+.detail .d-desc{
+  margin-top: 20px;
+}
+
+.detail .d-desc-title{
+  font-size: 14px;
+}
+
+.detail .d-desc-content{
+  color: #666;
+  margin-top: 10px;
+}
+
+.detail .d-desc-item{
+  margin-bottom: 10px;
+}
+
+.detail .d-desc-item:last-child{
+  margin-bottom: 0;
+}

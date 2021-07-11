@@ -1,0 +1,102 @@
+.action-bar{
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 50px;
+  background-color: #fff;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+}
+
+.action-bar .action-bar-btn{
+  display: flex;
+  text-align: center;
+}
+
+.action-bar .action-bar-icon{
+  width: 20px;
+  height: 20px;
+  background-color: #e8e8e8;
+  margin: 0 auto;
+}
+
+.action-bar .action-bar-text{
+  color: #666;
+}
+
+.action-bar .action-bat-btn-item{
+  margin-right: 10px;
+  position: relative;
+}
+
+.action-bar .action-bat-btn-item.active .action-bar-icon{
+  background-color: #0C34BA;
+}
+
+.action-bar .action-bat-btn-item.active  .action-bar-text{
+  color: #0C34BA;
+}
+
+
+
+.action-bar .badge.none{
+  display: none;
+}
+
+.action-bar .btns-box{
+  display: flex;
+  width: calc(100% - 80px);
+  margin: 7px 0;
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.action-bar .btn-box{
+  flex: 1;
+  text-align: center;
+  line-height: 36px;
+  color: #fff;
+}
+
+.action-bar .add-shopbag{
+  background-color: #1F48DE;
+}
+
+.action-bar .buy{
+  background-color: #0C34BA;
+}
+
+.action-bar .badge{
+  position: absolute;
+  right: 0px;
+  top: -5px;
+  background-color: #e4393c;
+  color: #fff;
+  padding: 0 5px;
+  border-radius: 8px;
+}
+
+.action-bar .badge.shake {
+  animation: shake .35s linear;
+}
+
+/* 定义抖动动画 */
+@keyframes shake {
+  0% {
+    top: -5px;
+  }
+
+  35% {
+    top: -13px;
+  }
+
+  65% {
+    top: 0px;
+  }
+
+  100%{
+    top: -5px
+  }
+}

@@ -1,0 +1,86 @@
+.login{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+}
+.login .n-right-title{
+  color: #0C34BA;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.login .nav-login-box{
+  border-bottom: 1px solid #F5F6F7;
+}
+
+.login .n-left-title{
+  display: flex;
+  align-items: center;
+}
+
+.login .login-logo{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.login .login-text{
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.login .login-info{
+  padding: 20px;
+}
+
+.login .login-info-title{
+  margin-top: 60px;
+}
+
+.login .zh-title{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.login .en-title{
+  color: #999;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.login .login-form{
+  margin-top: 50px;
+}
+
+
+.login .f-btn{
+  width: 100%;
+  height: 30px;
+  background-color: #0C34BA;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.login .login-btn-box{
+  margin-top: 60px;
+}
+
+.login .register-btn-box{
+  margin-top: 30px;
+}
+
+.login .forgot{
+  padding-top: 10px;
+  display: flex;
+}
+
+.login .forgot-text{
+  margin-left: auto;
+}

@@ -1,0 +1,23 @@
+.tabbar-item{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tabbar-icon{
+  width: 22px;
+  height: 22px;
+  margin: 0 auto;
+}
+
+.tabbar-text{
+  text-align: center;
+  margin-top: 2px;
+  font-size: 12px;
+  color: #666;
+}
+
+.tabbar-item.active .tabbar-text{
+  color: #0C34BA;
+}

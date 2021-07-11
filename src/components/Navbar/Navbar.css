@@ -1,0 +1,19 @@
+.navbar{
+  padding: 10px;
+  height: 30px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.navbar.sticky {
+  position: sticky;
+  top: 0;
+}
+
+.navbar .navbar-title{
+  margin: 0 20px;
+  text-align: center;
+}

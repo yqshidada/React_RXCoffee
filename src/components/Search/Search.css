@@ -1,0 +1,23 @@
+.search{
+  height: 30px;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.search.sticky{
+  position: sticky;
+  top: 0;
+}
+
+.search .search-box{
+  background-color: #f8f8f8;
+  border-radius: 15px;
+  height: 100%;
+  padding: 0 15px;
+}
+
+.search .search-ipt{
+  display: block;
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,15 @@
+.product .product-zhname{
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.product .product-enname{
+  color: #666;
+}
+
+.product .product-price{
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #e4393c;
+}

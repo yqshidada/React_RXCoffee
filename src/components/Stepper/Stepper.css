@@ -1,0 +1,23 @@
+.stepper{
+  display: flex;
+  align-items: center;
+}
+
+.stepper .stepper-btn{
+  width: 20px;
+  height: 20px;
+  background-color: #e8e8e8;
+  border-radius: 50%;
+}
+
+.stepper .stepper-count{
+  padding: 0 4px;
+}
+
+.stepper .stepper-ipt{
+  width: 30px;
+  height: 20px;
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+}

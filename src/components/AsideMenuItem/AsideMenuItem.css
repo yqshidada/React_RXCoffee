@@ -1,0 +1,11 @@
+.aside-menu-box .aside-menu-item{
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 14px;
+}
+
+.aside-menu-box .aside-menu-item.active{
+  background-color: #fff;
+  color: #0C34BA;
+}
